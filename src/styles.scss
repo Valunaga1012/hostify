@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --bs-primary: #E27D60; /* Nuevo color primario */
+}
+
+.bg-primary {
+  background-color:var(--bs-primary) !important;
+}
+
+.btn-primary {
+  background-color: var(--bs-primary) !important;
+  border-color: var(--bs-primary) !important;
+}
+
+.color-primary {
+  color: var(--bs-primary) !important;
+}
+
+.form-control:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: var(--bs-primary) !important;
+}
+
+.navbar-brand {
+  color: white;
+}
